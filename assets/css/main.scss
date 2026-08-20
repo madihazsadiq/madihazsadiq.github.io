@@ -1,6 +1,6 @@
 ---
-# Only the main Sass file needs Front Matter
 ---
+// Only the main Sass file needs Front Matter
 
 @charset "utf-8";
 
@@ -13,7 +13,7 @@
 @use "base";
 @use "layout";
 @use "site";
-@use "work";
-@use "blog";
+@use "research";
+@use "cv";
 @use "post";
 @use "not_found";

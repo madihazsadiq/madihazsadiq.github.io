@@ -19,13 +19,13 @@
 }
 
 .site-title {
-  font-size: 26px;
-  line-height: 56px;
+  font-size: 40px;
+  line-height: 65px;
   letter-spacing: -1px;
   float: left;
 
   img {
-    height: 23px;
+    height: 40px;
   }
 
   &,
@@ -170,4 +170,8 @@
 
 .page-heading {
   font-size: 20px;
+}
+
+.home {
+  text-align: justify;
 }

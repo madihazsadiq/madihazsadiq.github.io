@@ -1,0 +1,10 @@
+services:
+  jekyll-site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: jekyll serve -H 0.0.0.0 -w
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/usr/src/app

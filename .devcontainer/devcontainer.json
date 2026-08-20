@@ -1,0 +1,7 @@
+{
+  "name": "Bay Jekyll Site",
+  "dockerComposeFile": "../docker-compose.yaml",
+  "service": "jekyll-site",
+  "workspaceFolder": "/usr/src/app",
+  "shutdownAction": "stopCompose"
+}
